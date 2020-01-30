@@ -62,17 +62,17 @@ npm i socket.io --save
 npm i request --save
 
 
-# npm i binance-api-node --save
-# npm i bitfinex-api-node --save
-# npm i node-bitstamp --save
-# npm i bittrex-node --save
-# npm i exmo-api --save
-# npm i hitbtc-node-sdk --save
-# npm i kraken-api --save
-# npm i @okfe/okex-node --save
-# npm i poloniex-api-node --save
-# npm i kucoin-node-api --save
-# npm i cexio-api-node --save
+npm i binance-api-node --save
+npm i bitfinex-api-node --save
+npm i node-bitstamp --save
+npm i bittrex-node --save
+npm i exmo-api --save
+npm i hitbtc-node-sdk --save
+npm i kraken-api --save
+npm i @okfe/okex-node --save
+npm i poloniex-api-node --save
+npm i kucoin-node-api --save
+npm i cexio-api-node --save
 
 
 echo "PORT= 3000
