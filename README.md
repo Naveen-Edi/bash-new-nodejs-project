@@ -62,19 +62,6 @@ npm i socket.io --save
 npm i request --save
 
 
-npm i binance-api-node --save
-npm i bitfinex-api-node --save
-npm i node-bitstamp --save
-npm i bittrex-node --save
-npm i exmo-api --save
-npm i hitbtc-node-sdk --save
-npm i kraken-api --save
-npm i @okfe/okex-node --save
-npm i poloniex-api-node --save
-npm i kucoin-node-api --save
-npm i cexio-api-node --save
-
-
 echo "PORT= 3000
 socket_port= 4000
 db_url= mongodb://localhost:27017/payment
@@ -136,7 +123,7 @@ const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log('App listening on port 3000!');
-});" >> app.js
+});" >> index.js
 
 echo "const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.sendgrid_api_key);
@@ -242,9 +229,6 @@ app.use(session({
 
 // Admin Auth Api
 
-
-
-//* ***************** M E R C H E N T ***************
 
 
 module.exports = app;
